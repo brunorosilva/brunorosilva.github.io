@@ -107,77 +107,59 @@ experience:
 
 # Client & Work
 client_and_work:
-  title: "Clients & Works"
+  title: "Projects"
   enable: true
-
-  # clients:
-  #   - logo:
-  #       x: "img/clients/asgardia.png"
-  #       _2x: "img/clients/asgardia@2x.png"
-  #     alt: "Asgardia"
-
-  #   - logo:
-  #       x: "img/clients/earth-2.png"
-  #       _2x: "img/clients/earth-2@2x.png"
-  #     alt: "Earth 2.0"
-
-  #   - logo:
-  #       x: "img/clients/goldline.png"
-  #       _2x: "img/clients/goldline@2x.png"
-  #     alt: "Goldline"
-
-  #   - logo:
-  #       x: "img/clients/kanba.png"
-  #       _2x: "img/clients/kanba@2x.png"
-  #     alt: "Kanba"
-
-  #   - logo:
-  #       x: "img/clients/zoo-tv.png"
-  #       _2x: "img/clients/zoo-tv@2x.png"
-  #     alt: "Zoo"
-
-  #   - logo:
-  #       x: "img/clients/ztos.png"
-  #       _2x: "img/clients/ztos@2x.png"
-  #     alt: "Ztos"
-
   works:
-    - title: "Radity Finance - UI Kit"
-      description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
+    - title: "3JS Glowing Sphere"
+      description: "Small learning project that I created to teach myself ThreeJS concepts and ThreeJS Fiber (React)."
       button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
+        btnText: "Code"
+        URL: "https://github.com/brunorosilva/3js-glowing-sphere/"
+        secondarybtnText: "Demo"
+        secondaryURL: "https://brunorosilva.github.io/3js-glowing-sphere/"
       image:
-        x: "img/works/radity-finance.jpg"
-        _2x: "img/works/radity-finance@2x.jpg"
+        x: "img/works/ad.gif"
+        # _2x: "img/works/ad.gif"
       is_even: true
-
-    - title: "Swiss Fintech Website"
-      description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
+      
+    - title: "Plotly Calplot"
+      description: "The easiest and best looking Calendar Heatmap you'll find, made with Plotly. I actually got a shoutout from Plotly on Twitter and Linkedin for this one!"
       button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
+        btnText: "Code"
+        URL: "https://github.com/brunorosilva/plotly-calplot"
+        secondarybtnText: "Medium Article"
+        secondaryURL: "https://medium.com/@brunorosilva/5fc322125db7"
       image:
-        x: "img/works/swissfintech.jpg"
-        _2x: "img/works/swissfintech@2x.jpg"
+        x: "img/works/calendar.webp"
+        # _2x: "img/works/calendar.webp"
       is_even: false
 
-    - title: "Robo Advisor"
-      description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
+    - title: "Todoist Analytics"
+      description: "Keep track and create analytics based on your data from Todoist. If you use Todoist for daily, weekly, monthly or yearly planning you should try this tool. This is how the current version of the tool looks like."
       button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
+        btnText: "Code"
+        URL: "https://github.com/brunorosilva/todoist-analytics"
+        # secondarybtnText: "Demo"
+        # secondaryURL: "https://todoist-analytics-mvp.herokuapp.com/"
       image:
-        x: "img/works/robo-advisor.jpg"
-        _2x: "img/works/robo-advisor@2x.jpg"
+        x: "img/works/demoist.gif"
+        # _2x: "img/works/ad.gif"
       is_even: true
+      
+
+    - title: "NLP Job Classifier (based on linkedin data)"
+      description: "A Job classification between Data Analyst, Data Scientist and Data Engineer web app made with Tensorflow, Selenium and deployed with Streamlit on Heroku. One simply inputs the job description in the input section and the model trained with ~3k job descriptions scraped with Selenium from jobs in the US."
+      button:
+        btnText: "Code"
+        URL: "https://github.com/brunorosilva/nlp-classificacao-de-vagas"
+      image:
+        x: "img/works/image05.jpg"
+        # _2x: "img/works/calendar.webp"
+      is_even: false
 
 # testimonial
 testimonial:
-  enable: true
+  enable: false
   title: "Testimonials"
   items:
     - name: "Daniel Jordan"
@@ -203,7 +185,7 @@ testimonial:
 
 # contact
 contact:
-  enable: true
+  enable: false
   title: "Contact"
   form:
     method: "POST"
@@ -226,7 +208,7 @@ contact:
 
 # newsletter
 newsletter:
-  enable: true
+  enable: false
   title: "Newsletter subscription"
   success_message: "Successfully subscribed"
   error_message: "Error while subscribing."

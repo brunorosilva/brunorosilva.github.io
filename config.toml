@@ -26,34 +26,34 @@ theme = "raditian-free-hugo-theme"
 [menu]
 
   [[menu.header]]
-  name = "About"
-  URL = "#about"
+  name = "education"
+  URL = "#education"
   weight = 2
 
   [[menu.header]]
-  name = "Portfolio"
-  URL = "#portfolio"
+  name = "work"
+  URL = "#experience"
   weight = 3
 
   [[menu.header]]
-  name = "Contact"
-  URL = "#contact"
+  name = "projects"
+  URL = "#portfolio"
   weight = 4
 
 
   [[menu.footer]]
-  name = "About"
-  URL = "#about"
+  name = "education"
+  URL = "#education"
   weight = 2
 
   [[menu.footer]]
-  name = "Portfolio"
-  URL = "#portfolio"
+  name = "work"
+  URL = "#experience"
   weight = 3
 
   [[menu.footer]]
-  name = "Contact"
-  URL = "#contact"
+  name = "projects"
+  URL = "#portfolio"
   weight = 4
 
 
@@ -68,8 +68,6 @@ theme = "raditian-free-hugo-theme"
     text2 = "rosilva"
 
   [params.footer]
-      copyright = "© Raditian. All rights reserved."
-      [params.footer.radity_logo]
-        x = "img/general/design-and-code-radity.png"
-        _2x = "img/general/design-and-code-radity@2x.png"
-        alt = "Design & Code - Radity"
+      copyright = "© Bruno Chicelli. See the code for this page"
+      projectCodeName = "here"
+      projectCodeURL = "https://github.com/brunorosilva/brunorosilva.github.io"
