@@ -119,7 +119,7 @@ client_and_work:
         secondaryURL: "https://brunorosilva.github.io/3js-glowing-sphere/"
       image:
         x: "img/works/ad.gif"
-        # _2x: "img/works/ad.gif"
+        _2x: "img/works/ad.gif"
       is_even: true
       
     - title: "Plotly Calplot"
@@ -131,7 +131,7 @@ client_and_work:
         secondaryURL: "https://medium.com/@brunorosilva/5fc322125db7"
       image:
         x: "img/works/calendar.webp"
-        # _2x: "img/works/calendar.webp"
+        _2x: "img/works/calendar.webp"
       is_even: false
 
     - title: "Todoist Analytics"
@@ -143,6 +143,7 @@ client_and_work:
         # secondaryURL: "https://todoist-analytics-mvp.herokuapp.com/"
       image:
         x: "img/works/demoist.gif"
+        _2x: "img/works/demoist.gif"
         # _2x: "img/works/ad.gif"
       is_even: true
       
@@ -154,7 +155,7 @@ client_and_work:
         URL: "https://github.com/brunorosilva/nlp-classificacao-de-vagas"
       image:
         x: "img/works/image05.jpg"
-        # _2x: "img/works/calendar.webp"
+        _2x: "img/works/image05.jpg"
       is_even: false
 
 # testimonial
