@@ -57,11 +57,7 @@ about:
 education:
   enable: true
   title: "Education"
-  items:
-    - university: "Polytechnic School of the University of São Paulo"
-      year: "2021-2023 (in progress)"
-      degree: "Master of Science in Mechatronics Engineering - Thesis on Artificial Intelligence, Deep Reinforcement Learning"
-      
+  items:      
     - university: "Polytechnic School of the University of São Paulo"
       year: "2020-2022"
       degree: "Two year especialization in Artificial Intelligence, focusing in Deep Learning and architecture of Neural Networks."
@@ -139,8 +135,8 @@ client_and_work:
       button:
         btnText: "Code"
         URL: "https://github.com/brunorosilva/todoist-analytics"
-        # secondarybtnText: "Demo"
-        # secondaryURL: "https://todoist-analytics-mvp.herokuapp.com/"
+        secondarybtnText: "Check it out!"
+        secondaryURL: "https://todoistanalytics.streamlit.app/"
       image:
         x: "img/works/demoist.gif"
         _2x: "img/works/demoist.gif"
