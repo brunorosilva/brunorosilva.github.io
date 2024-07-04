@@ -106,6 +106,18 @@ client_and_work:
   title: "Projects"
   enable: true
   works:
+    - title: "Image to Art Search - WikiArt"
+      description: "Find real artwork that looks like any image you want. Made using Vision Transformers w/ Transfer Learning and data from WikiArt and Instagram"
+      button:
+        btnText: "Code"
+        URL: "https://github.com/brunorosilva/img2art-search"
+        # secondarybtnText: "Demo"
+        # secondaryURL: "https://brunorosilva.github.io/3js-glowing-sphere/"
+      image:
+        x: "img/works/img2art.gif"
+        # _2x: "img/works/ad.gif"
+      is_even: true
+
     - title: "3JS Glowing Sphere"
       description: "Small learning project that I created to teach myself ThreeJS concepts and ThreeJS Fiber (React)."
       button:
