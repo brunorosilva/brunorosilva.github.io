@@ -116,7 +116,7 @@ client_and_work:
       image:
         x: "img/works/img2art.gif"
         # _2x: "img/works/ad.gif"
-      is_even: true
+      is_even: false
 
     - title: "3JS Glowing Sphere"
       description: "Small learning project that I created to teach myself ThreeJS concepts and ThreeJS Fiber (React)."
