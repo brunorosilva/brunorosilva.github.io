@@ -111,8 +111,8 @@ client_and_work:
       button:
         btnText: "Code"
         URL: "https://github.com/brunorosilva/img2art-search"
-        # secondarybtnText: "Demo"
-        # secondaryURL: "https://brunorosilva.github.io/3js-glowing-sphere/"
+        secondarybtnText: "Demo"
+        secondaryURL: "https://huggingface.co/spaces/chicelli/img2art-search"
       image:
         x: "img/works/img2art.gif"
         # _2x: "img/works/ad.gif"
