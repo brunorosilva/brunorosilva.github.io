@@ -7,7 +7,7 @@
                 <div class="experience">
                     <div class="experience__date">{{ .duration }}</div>
                     <div class="experience__title">{{ .title }}</div>
-                    <div class="experience__company">{{ .company }}</div>
+                    <div class="experience__company"><a href="{{ .companyURL }}" target="_blank">{{ .company }}</a></div>
                 </div>
                 {{ end }}
             </div>

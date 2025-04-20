@@ -1,1 +1,12 @@
 /* You can customize theme styles here */
+
+/* Make homepage description links red */
+.rn-section-content .lead a {
+    color: #ff0000 !important;
+    text-decoration: none;
+}
+
+.rn-section-content .lead a:hover {
+    color: #cc0000 !important;
+    text-decoration: underline;
+}
