@@ -62,19 +62,19 @@ education:
       year: "2020-2022"
       degree: "Two year especialization in Artificial Intelligence, focusing in Deep Learning and architecture of Neural Networks."
 
-    - university: "Federal University of the ABC - São Paulo"
-      year: "2015-2019"
-      degree: "Completed 90% of the course. Abandoned this degree in order to join the Specialization in AI."
+    # - university: "Federal University of the ABC - São Paulo"
+    #   year: "2015-2019"
+    #   degree: "Completed 90% of the course. Abandoned this degree in order to join the Specialization in AI."
 
     - university: "Federal University of the ABC - São Paulo"
       year: "2015-2018"
-      degree: "Major in Science and Tech."
+      degree: "BSc. Science and Tech."
 
 # experience
 experience:
   enable: true
   title: "Experience"
-  description: "I love building cool stuff with data and AI that actually works for lots of people. Whether it's making apps smarter or teaching computers to see, I'm all about solving tricky problems with code that doesn't break in production."
+  description: "I love building cool stuff with data and AI that works for people and solving tricky problems with code that doesn't break in production."
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
@@ -88,16 +88,22 @@ experience:
     - title: "Senior Artificial Intelligence Engineer"
       company: "Handoff"
       companyURL: "https://handoff.ai"
+      programming: "Python, SQL, LangChain"
+      tech: "LangGraph, LangFuse, OpenAI Platform, AWS, Airflow, Metabase"
       duration: "March 2025 - Current"
 
     - title: "Senior Machine Learning Engineer"
       company: "Reelgood"
       companyURL: "https://reelgood.com"
+      programming: "Python, SQL, PyTorch, LangChain"
+      tech: "EKS, ChromaDB, Pinecone, LangChain, SentenceTransformers, HuggingFace Models, AWS, Airflow"
       duration: "November 2023 - March 2025"
 
     - title: "Staff Machine Learning Engineer | AdTech"
       company: "Globo"
       companyURL: "https://globo.com"
+      programming: "Python, SQL, PySpark, Dask, Pytorch, TensorFlow, OpenCV, JavaScript"
+      tech: "AWS, GCP, Azure, Vertex AI, DataProc, DataFlow, BigQuery, Gitlab CI"
       duration: "April 2023 - November 2023"
 
     - title: "Senior Data Scientist | AdTech"
@@ -108,11 +114,15 @@ experience:
     - title: "Data Scientist | Advanced Analytics Squad"
       company: "Boa Vista"
       companyURL: "https://www.boavistaservicos.com.br/"
+      programming: "Python, SQL, MLFlow, XGBoost, Catboost, LightGBM, TensorFlow, SKLearn"
+      tech: "GCP, BigQuery, AI Platform"
       duration: "August 2020 - May 2021"
 
     - title: "Jr Data Scientist | Innovation in Marketing Squad"
       company: "Arcelor Mittal"
       companyURL: "https://corporate.arcelormittal.com/"
+      programming: "Python, Scikit-learn, TensorFlow, Selenium, SQL"
+      tech: "Azure, PowerBI, SAP HANA"
       duration: "May 2019 - July 2020"
 
 # Client & Work
@@ -132,18 +142,6 @@ client_and_work:
         # _2x: "img/works/ad.gif"
       is_even: false
 
-    - title: "3JS Glowing Sphere"
-      description: "Small learning project that I created to teach myself ThreeJS concepts and ThreeJS Fiber (React)."
-      button:
-        btnText: "Code"
-        URL: "https://github.com/brunorosilva/3js-glowing-sphere/"
-        secondarybtnText: "Demo"
-        secondaryURL: "https://brunorosilva.github.io/3js-glowing-sphere/"
-      image:
-        x: "img/works/ad.gif"
-        _2x: "img/works/ad.gif"
-      is_even: true
-      
     - title: "Plotly Calplot"
       description: "The easiest and best looking Calendar Heatmap you'll find, made with Plotly. I actually got a shoutout from Plotly on Twitter and Linkedin for this one!"
       button:
@@ -154,7 +152,7 @@ client_and_work:
       image:
         x: "img/works/calendar.webp"
         _2x: "img/works/calendar.webp"
-      is_even: false
+      is_even: true
 
     - title: "Todoist Analytics"
       description: "Keep track and create analytics based on your data from Todoist. If you use Todoist for daily, weekly, monthly or yearly planning you should try this tool. This is how the current version of the tool looks like."
@@ -166,20 +164,31 @@ client_and_work:
       image:
         x: "img/works/demoist.gif"
         _2x: "img/works/demoist.gif"
-        # _2x: "img/works/ad.gif"
-      is_even: true
+      is_even: false
       
 
     - title: "NLP Job Classifier (based on linkedin data)"
-      description: "A Job classification between Data Analyst, Data Scientist and Data Engineer web app made with Tensorflow, Selenium and deployed with Streamlit on Heroku. One simply inputs the job description in the input section and the model trained with ~3k job descriptions scraped with Selenium from jobs in the US."
+      description: "A Job classification between Data Analyst, Data Scientist and Data Engineer web app made with Tensorflow, Selenium and deployed with Streamlit on Heroku. The model was trained with ~3k job descriptions scraped with Selenium from jobs in the US."
       button:
         btnText: "Code"
         URL: "https://github.com/brunorosilva/nlp-classificacao-de-vagas"
       image:
         x: "img/works/image05.jpg"
         _2x: "img/works/image05.jpg"
-      is_even: false
+      is_even: true
 
+    - title: "3JS Glowing Sphere"
+      description: "Small learning project that I created to teach myself ThreeJS concepts and ThreeJS Fiber (React)."
+      button:
+        btnText: "Code"
+        URL: "https://github.com/brunorosilva/3js-glowing-sphere/"
+        secondarybtnText: "Demo"
+        secondaryURL: "https://brunorosilva.github.io/3js-glowing-sphere/"
+      image:
+        x: "img/works/ad.gif"
+        _2x: "img/works/ad.gif"
+      is_even: false
+      
 # testimonial
 testimonial:
   enable: false

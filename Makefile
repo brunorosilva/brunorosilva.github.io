@@ -3,6 +3,9 @@
 # Default target
 all: install serve
 
+mac_install: 
+	@brew install hugo
+
 # Install Hugo if not present
 install:
 	@if ! command -v hugo > /dev/null; then \
