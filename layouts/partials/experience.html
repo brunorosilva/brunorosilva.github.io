@@ -9,10 +9,13 @@
                     <div class="experience__title">{{ .title }}</div>
                     <div class="experience__company"><a href="{{ .companyURL }}" target="_blank">{{ .company }}</a></div>
                     {{ if .programming }}
-
                     <div class="experience__programming"><b>Programming Languages and Libs</b> <br>{{ .programming }}</div>
                     <br>
                     <div class="experience__tech"><b>Tools and Platforms</b> <br>{{ .tech }}</div>
+                    {{ end }}
+                    {{ if .results }}
+                    <br>
+                    <div class="experience__results"><b>Results</b> <br>{{ .results | safeHTML }}</div>
                     {{ end }}
                 </div>
                 {{ end }}

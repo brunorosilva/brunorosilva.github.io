@@ -90,6 +90,7 @@ experience:
       companyURL: "https://handoff.ai"
       programming: "Python, SQL, LangChain"
       tech: "LangGraph, LangFuse, OpenAI Platform, AWS, Airflow, Metabase"
+      results: "Creating the best AI to estimate remodeling costs."
       duration: "March 2025 - Current"
 
     - title: "Senior Machine Learning Engineer"
@@ -97,6 +98,7 @@ experience:
       companyURL: "https://reelgood.com"
       programming: "Python, SQL, PyTorch, LangChain"
       tech: "EKS, ChromaDB, Pinecone, LangChain, SentenceTransformers, HuggingFace Models, AWS, Airflow"
+      results: "• 750× performance improvement (from 3s/title to 4ms/title)<br>• Significant precision gain<br>• Scaled to 3M+ titles across 60+ streaming services in 8 languages</li></ul>"
       duration: "November 2023 - March 2025"
 
     - title: "Staff Machine Learning Engineer | AdTech"
@@ -104,11 +106,13 @@ experience:
       companyURL: "https://globo.com"
       programming: "Python, SQL, PySpark, Dask, Pytorch, TensorFlow, OpenCV, JavaScript"
       tech: "AWS, GCP, Azure, Vertex AI, DataProc, DataFlow, BigQuery, Gitlab CI"
+      results: "• Improved ad recommendation models using Two Towers architecture, matching/beating expert performance<br>• Scaled behavior graph models and pipelines for 100M+ users using Vertex AI, DataProc, DataFlow, and BigQuery<br>• Won internal hackathon with user embeddings + generative AI for segment-optimized ad creatives"
       duration: "April 2023 - November 2023"
 
     - title: "Senior Data Scientist | AdTech"
       company: "Globo"
       companyURL: "https://globo.com"
+      results: "• Built automated midroll ad placement pipeline for thousands of Globo videos using event-based cloud tools and deep learning<br>• Developed contextual ad engine with text-to-IAB taxonomy matching and topic clustering, significantly improving CTR<br>• Founded Globo Paper Club, a monthly internal journal club<br>• Led projects in digital inventory optimization, pricing, and sales forecasting"
       duration: "June 2021 - March 2023"
 
     - title: "Data Scientist | Advanced Analytics Squad"
@@ -116,13 +120,15 @@ experience:
       companyURL: "https://www.boavistaservicos.com.br/"
       programming: "Python, SQL, MLFlow, XGBoost, Catboost, LightGBM, TensorFlow, SKLearn"
       tech: "GCP, BigQuery, AI Platform"
+      results: "• Built a fast modeling tool with LGBM, XGBoost, and CatBoost to reduce Data Scientist overhead<br>• Developed a credit card acceptance and activation propensity model<br>• Improved modeling process standards<br>• Led MLOps and workflow automation innovations to boost impact, productivity, and enablement of the Data Science team"
       duration: "August 2020 - May 2021"
 
     - title: "Jr Data Scientist | Innovation in Marketing Squad"
       company: "Arcelor Mittal"
       companyURL: "https://corporate.arcelormittal.com/"
-      programming: "Python, Scikit-learn, TensorFlow, Selenium, SQL"
+      programming: "Python, Scikit-learn, TensorFlow, Selenium, SQL, R"
       tech: "Azure, PowerBI, SAP HANA"
+      results: "• Saved ~1.3M BRL/year through automation and data science<br>• Built sales forecasting for 100+ points of sale across Brazil<br>• Developed customer churn and factory demand prediction models<br>• Applied statistical modeling and ML in Python and R for forecasting and insights<br>• Contributed to analytics projects across multiple business areas"
       duration: "May 2019 - July 2020"
 
 # Client & Work

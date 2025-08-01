@@ -10,3 +10,14 @@
     color: #cc0000 !important;
     text-decoration: underline;
 }
+
+/* Add space between showcase and experience sections */
+.rad-showcase + section#experience {
+    margin-top: 100px !important;
+}
+
+@media (min-width: 992px) {
+    .rad-showcase + section#experience {
+        margin-top: 150px !important;
+    }
+}
