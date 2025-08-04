@@ -1,5 +1,6 @@
 baseURL = "https://brunorosilva.github.io/"
 languageCode = "en-us"
+title = "chicelli"
 theme = "raditian-free-hugo-theme"
 
 # Plugins
