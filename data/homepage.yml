@@ -98,7 +98,7 @@ experience:
       companyURL: "https://reelgood.com"
       programming: "Python, SQL, PyTorch, LangChain"
       tech: "EKS, ChromaDB, Pinecone, LangChain, SentenceTransformers, HuggingFace Models, AWS, Airflow"
-      results: "• 750× performance improvement (from 3s/title to 4ms/title)<br>• Significant precision gain<br>• Scaled to 3M+ titles across 60+ streaming services in 8 languages</li></ul>"
+      results: "Worked on the core title-matching algorithm to accomplish: <br>• 750× performance improvement (from 3s/title to 4ms/title)<br>• Significant precision gain in matching movies, shows, and episodes<br>• Scaled to 3M+ titles across 60+ streaming services in 8 languages</li></ul>"
       duration: "November 2023 - March 2025"
 
     - title: "Staff Machine Learning Engineer | AdTech"
