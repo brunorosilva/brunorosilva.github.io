@@ -137,12 +137,12 @@ client_and_work:
   enable: true
   works:
     - title: "Image to Art Search - WikiArt"
-      description: "Find real artwork that looks like any image you want. Made using Vision Transformers w/ Transfer Learning and data from WikiArt and Instagram"
+      description: "Find real artwork that looks like any image you want. Made using Vision Transformers w/ Transfer Learning and data from WikiArt"
       button:
         btnText: "Code"
         URL: "https://github.com/brunorosilva/img2art-search"
-        secondarybtnText: "Demo"
-        secondaryURL: "https://huggingface.co/spaces/chicelli/img2art-search"
+        secondarybtnText: "Use it"
+        secondaryURL: "https://brunorosilva.github.io/img2art-search/"
       image:
         x: "img/works/img2art.gif"
         # _2x: "img/works/ad.gif"
