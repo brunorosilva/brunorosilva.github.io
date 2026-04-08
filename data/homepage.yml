@@ -7,7 +7,7 @@ showcase:
   enable: true
   title: "Hi, I’m Bruno Chicelli"
   subtitle: "AI/ML Engineer"
-  description: "at <a href='https://handoff.ai'>Handoff</a> creating the best AI to estimate construction costs."
+  description: "at <a href='https://handoff.ai'>Handoff</a> designing novel ML architectures and shipping research into production - currently teaching VLMs how to read blueprints, creating novel RAG architectures and fine-tuning LLMs at scale."
   image:
     alt: "me"
     x: "img/showcase/me_smaller.png"
@@ -85,12 +85,12 @@ experience:
     URL: "https://github.com/brunorosilva/CV-BRS/blob/main/Bruno_Rodrigues_CV.pdf"
 
   items:
-    - title: "Senior Artificial Intelligence Engineer"
+    - title: "Senior AI/ML Engineer"
       company: "Handoff"
       companyURL: "https://handoff.ai"
-      programming: "Python, SQL, LangChain"
-      tech: "LangGraph, LangFuse, OpenAI Platform, AWS, Airflow, Metabase"
-      results: "Creating the best AI to estimate remodeling costs."
+      programming: "Python, SQL, PyTorch, LangChain, TypeScript"
+      tech: "LangGraph, LangFuse, Anthropic API, Milvus, Algolia, Airflow, Athena, AWS, HuggingFace, Together AI, LlamaFactory"
+      results: "Working on teaching VLMs how to read blueprints, creating novel RAG architectures and fine-tuning LLMs at scale."
       duration: "March 2025 - Current"
 
     - title: "Senior Machine Learning Engineer"
