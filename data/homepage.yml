@@ -89,8 +89,8 @@ experience:
       company: "Handoff"
       companyURL: "https://handoff.ai"
       programming: "Python, SQL, PyTorch, LangChain, TypeScript"
-      tech: "LangGraph, LangFuse, Anthropic API, Milvus, Algolia, Airflow, Athena, AWS, HuggingFace, Together AI, LlamaFactory"
-      results: "Working on teaching VLMs how to read blueprints, creating novel RAG architectures and fine-tuning LLMs at scale."
+      tech: "LangGraph, LangFuse, Anthropic API, Milvus, Algolia, Airflow, Athena, AWS, SageMaker, HuggingFace, Together AI, LlamaFactory"
+      results: "• Teaching vision-language models (VLMs) to read and reason over construction blueprints<br>• Designed hierarchical RAG (HiRAG) for retrieval over large, structured technical documents<br>• Fine-tuning open-weight LLMs at scale (Kimi K2, GLM-4.6, Llama 4 Maverick/Scout) with LlamaFactory<br>• Orchestrating multi-agent estimation pipelines with LangGraph"
       duration: "March 2025 - Current"
 
     - title: "Senior Machine Learning Engineer"
@@ -130,6 +130,22 @@ experience:
       tech: "Azure, PowerBI, SAP HANA"
       results: "• Saved ~1.3M BRL/year through automation and data science<br>• Built sales forecasting for 100+ points of sale across Brazil<br>• Developed customer churn and factory demand prediction models<br>• Applied statistical modeling and ML in Python and R for forecasting and insights<br>• Contributed to analytics projects across multiple business areas"
       duration: "May 2019 - July 2020"
+
+# research
+research:
+  enable: true
+  title: "Research"
+  description: "Turning applied ML work at Handoff into publishable research on document understanding and retrieval."
+  items:
+    - title: "Teaching Vision-Language Models to Read Construction Blueprints"
+      venue: "Handoff · Forthcoming 2026"
+      status: "Pre-print (in preparation)"
+      description: "Adapting vision-language models to parse and reason over architectural and structural blueprints, enabling automated construction takeoff from raw drawings."
+
+    - title: "Hierarchical RAG (HiRAG) for Structured Technical Documents"
+      venue: "Handoff · Forthcoming 2026"
+      status: "Pre-print (in preparation)"
+      description: "A hierarchical retrieval architecture for large, deeply-structured construction documents, improving grounding and precision over flat RAG baselines."
 
 # Client & Work
 client_and_work:

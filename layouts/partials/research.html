@@ -1,0 +1,28 @@
+{{ if .Site.Data.homepage.research.enable }}
+<section id="research" class="section section--border-bottom rad-animation-group">
+    <div class="container">
+        <div class="row rad-fade-down">
+            <div class="col-12">
+                <h2>{{ .Site.Data.homepage.research.title }}</h2>
+                {{ with .Site.Data.homepage.research.description }}
+                <p class="lead">{{ . }}</p>
+                {{ end }}
+                <div class="row pt-2 pt-md-4">
+                    {{ range .Site.Data.homepage.research.items }}
+                    <div class="col-12 col-sm-6 mb-4 mb-sm-0">
+                        <div class="education">
+                            <div class="education__date">{{ .venue }}</div>
+                            <div class="education__title">{{ .title }}</div>
+                            <div class="education__degree">
+                                {{ with .status }}<b>{{ . }}</b><br>{{ end }}
+                                {{ .description }}
+                            </div>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
