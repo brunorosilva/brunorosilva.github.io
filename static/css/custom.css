@@ -11,17 +11,80 @@
     text-decoration: underline;
 }
 
-/* Research item links */
-.research__links a {
+/* Research item links — skewed chips echoing the .education slab motif */
+.research__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 22px;
+    position: relative;
+    z-index: 2;
+}
+
+.research__link {
+    display: inline-block;
+    padding: 8px 18px;
+    background-color: #fff;
+    border: 1px solid rgba(255, 0, 0, 0.3);
+    text-decoration: none !important;
+    transform: skew(-13deg);
+    transition: background-color 0.18s ease, border-color 0.18s ease,
+        transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+/* Counter-skew so the label stays upright inside the slanted chip */
+.research__link > span {
+    display: inline-flex;
+    align-items: center;
+    transform: skew(13deg);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
     color: #ff0000;
-    text-decoration: none;
-    margin-right: 14px;
+    transition: color 0.18s ease;
     white-space: nowrap;
 }
 
-.research__links a:hover {
-    color: #cc0000;
-    text-decoration: underline;
+.research__link i {
+    margin-left: 8px;
+    font-size: 15px;
+    line-height: 1;
+    transition: transform 0.18s ease;
+}
+
+.research__link:hover {
+    background-color: #ff0000;
+    border-color: #ff0000;
+    transform: skew(-13deg) translateY(-2px);
+    box-shadow: 0 6px 16px rgba(255, 0, 0, 0.25);
+}
+
+.research__link:hover > span {
+    color: #fff;
+}
+
+.research__link:hover i {
+    transform: translateX(3px);
+}
+
+.research__link:focus-visible {
+    outline: 2px solid #ff0000;
+    outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .research__link,
+    .research__link > span,
+    .research__link i {
+        transition: none;
+    }
+    .research__link:hover {
+        transform: skew(-13deg);
+    }
+    .research__link:hover i {
+        transform: none;
+    }
 }
 
 /* Add space between showcase and experience sections */

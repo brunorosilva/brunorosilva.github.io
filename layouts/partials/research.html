@@ -18,9 +18,11 @@
                                 {{ with .summary }}<i>{{ . | safeHTML }}</i><br><br>{{ end }}
                                 {{ .description | safeHTML }}
                                 {{ with .links }}
-                                <div class="research__links mt-2">
+                                <div class="research__links">
                                     {{ range . }}
-                                    <a href="{{ .URL }}" target="_blank" rel="noopener">{{ .text }}</a>
+                                    <a class="research__link" href="{{ .URL }}" target="_blank" rel="noopener">
+                                        <span>{{ .text }}<i class="{{ default "icon-arrow-right" .icon }}"></i></span>
+                                    </a>
                                     {{ end }}
                                 </div>
                                 {{ end }}
