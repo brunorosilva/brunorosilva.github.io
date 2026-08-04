@@ -11,6 +11,19 @@
     text-decoration: underline;
 }
 
+/* Research item links */
+.research__links a {
+    color: #ff0000;
+    text-decoration: none;
+    margin-right: 14px;
+    white-space: nowrap;
+}
+
+.research__links a:hover {
+    color: #cc0000;
+    text-decoration: underline;
+}
+
 /* Add space between showcase and experience sections */
 .rad-showcase + section#experience {
     margin-top: 100px !important;

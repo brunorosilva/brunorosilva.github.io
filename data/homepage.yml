@@ -142,10 +142,18 @@ research:
       status: "Pre-print (in preparation)"
       description: "Adapting vision-language models to parse and reason over architectural and structural blueprints, enabling automated construction takeoff from raw drawings."
 
-    - title: "Hierarchical RAG (HiRAG) for Structured Technical Documents"
-      venue: "Handoff · Forthcoming 2026"
-      status: "Pre-print (in preparation)"
-      description: "A hierarchical retrieval architecture for large, deeply-structured construction documents, improving grounding and precision over flat RAG baselines."
+    - title: "Knowledge-Grounded Cost Estimation through Hierarchical Retrieval and Curated Domain Ontologies"
+      venue: "Handoff · Pre-print in preparation, 2026"
+      status: "Shipped in production · Foundation layer of Handoff H-1"
+      summary: "Flat retrieval treats every chunk as equal, mixing foundation measurements with roofing specifications in a single context window and destroying the trade-level coherence that human estimators maintain naturally. We replace it with a persistent, typed foundation built once per project and queried on demand."
+      description: "Automated cost estimation from architectural blueprints requires reasoning over dimensional measurements, material specifications, construction conventions, and pricing data — a task that exposes fundamental limitations in both flat retrieval-augmented generation and general-purpose language models. Given raw blueprint text, LLMs produce estimates that read fluently but lack dimensional grounding: they hallucinate quantities, confuse units, and miss the trade-specific logic that separates a usable estimate from a plausible-sounding one.<br><br>The system draws on two ideas: hierarchical knowledge organization, as formalized in graph-based RAG research, and curated domain wikis, which build synthesis once and keep it current rather than rediscovering knowledge from scratch on every query. It constructs a foundation of interlocking ontologies — a <b>source ontology</b> of typed blueprint data with explicit measurement authority, a <b>trade ontology</b> that acts as the bridge layer, synthesizing per-trade material knowledge against a curated construction knowledge base, and a <b>project ontology</b> that enforces cross-trade consistency through structured fact extraction and deterministic conflict resolution. An agentic estimation stage consumes this foundation through on-demand queries, retrieving only the knowledge relevant to each task.<br><br>Ablations show the foundation is doing the work: removing it collapses both quantity precision and material coverage. The architecture is the retrieval and grounding layer beneath <b>Handoff H-1</b>, which scores 81.6% composite on TAKEOFFBENCH-V1 — 2,009 expert-verified line items across 10 residential blueprint sets — against 77.6% for independent human estimators and 34.7–61.4% for frontier models. The benchmark is public so the comparison is reproducible."
+      links:
+        - text: "H-1 model release"
+          URL: "https://www.handoff.ai/tech/h1-model-release"
+        - text: "YC Launch"
+          URL: "https://www.ycombinator.com/launches/RdZ-handoff-h1-a-takeoff-model-that-outperforms-human-estimators"
+        - text: "Benchmark (GitHub)"
+          URL: "https://github.com/handoffai/residential-takeoff-benchmark"
 
 # Client & Work
 client_and_work:

@@ -15,7 +15,15 @@
                             <div class="education__title">{{ .title }}</div>
                             <div class="education__degree">
                                 {{ with .status }}<b>{{ . }}</b><br>{{ end }}
-                                {{ .description }}
+                                {{ with .summary }}<i>{{ . | safeHTML }}</i><br><br>{{ end }}
+                                {{ .description | safeHTML }}
+                                {{ with .links }}
+                                <div class="research__links mt-2">
+                                    {{ range . }}
+                                    <a href="{{ .URL }}" target="_blank" rel="noopener">{{ .text }}</a>
+                                    {{ end }}
+                                </div>
+                                {{ end }}
                             </div>
                         </div>
                     </div>
