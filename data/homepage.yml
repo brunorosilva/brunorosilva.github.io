@@ -219,7 +219,19 @@ client_and_work:
         x: "img/works/ad.gif"
         _2x: "img/works/ad.gif"
       is_even: false
-      
+
+    - title: "Bricklaying RL"
+      description: "A physics-based bricklaying RL environment: a mobile gantry robot places bricks against a blueprint and is scored like a real mason - every brick within BIM ±3mm tolerance, live PyMunk physics, so a bad placement can topple the wall. Watch trained policies build walls, arches and full house facades in an interactive 3D/2D replay viewer."
+      button:
+        btnText: "Code"
+        URL: "https://github.com/brunorosilva/bricklaying-rl-env"
+        secondarybtnText: "Watch it build"
+        secondaryURL: "https://brunorosilva.github.io/bricklaying-rl-env/"
+      image:
+        x: "img/works/bricklaying.gif"
+        _2x: "img/works/bricklaying.gif"
+      is_even: true
+
 # testimonial
 testimonial:
   enable: false
