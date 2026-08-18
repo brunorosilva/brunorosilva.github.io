@@ -135,20 +135,18 @@ experience:
 research:
   enable: true
   title: "Research"
-  description: "Turning applied ML work at Handoff into publishable research on document understanding and retrieval."
+  description: "My contributions to the scientific community. Specially in the areas of Computer Vision, Natural Language Processing and Reinforcement Learning."
   items:
-    - title: "Teaching Vision-Language Models to Read Construction Blueprints"
-      venue: "Handoff · Forthcoming 2026"
-      status: "Pre-print (in preparation)"
-      description: "Adapting vision-language models to parse and reason over architectural and structural blueprints, enabling automated construction takeoff from raw drawings."
-
-    - title: "Knowledge-Grounded Construction Cost Estimation through a Persistent Project Foundation"
+    - title: "Handoff-H1: An Orchestrated Vision-Agent System for Material Quantity Takeoff from Construction Blueprints"
       venue: "Handoff AI Research · 2026"
-      status: "Deployed in production as the foundation layer of Handoff H-1 · Pre-print in preparation"
-      summary: "Flat retrieval treats every chunk as equal, mixing foundation measurements with roofing specifications in a single context window and destroying the trade-level coherence that human estimators maintain naturally. We replace it with a persistent, typed foundation built once per project and queried on demand."
-      description: "Automated cost estimation from architectural blueprints requires reasoning over dimensional measurements, material specifications, construction conventions, and pricing data — a task that exposes fundamental limitations in both flat retrieval-augmented generation and general-purpose language models. Given raw blueprint text, LLMs produce estimates that read fluently but lack dimensional grounding: they hallucinate quantities, confuse units, and miss the trade-specific logic that separates a usable estimate from a plausible-sounding one.<br><br>The system draws on two ideas: hierarchical knowledge organization, as formalized in graph-based RAG research, and curated domain wikis, which build synthesis once and keep it current rather than rediscovering knowledge from scratch on every query. It constructs a foundation of interlocking ontologies — a <b>source ontology</b> of typed blueprint data with explicit measurement authority, a <b>trade ontology</b> that acts as the bridge layer, synthesizing per-trade material knowledge against a curated construction knowledge base, and a <b>project ontology</b> that enforces cross-trade consistency through structured fact extraction and deterministic conflict resolution. An agentic estimation stage consumes this foundation through on-demand queries, retrieving only the knowledge relevant to each task.<br><br>Ablations show the foundation is doing the work: removing it collapses both quantity precision and material coverage. The architecture is the retrieval and grounding layer beneath <b>Handoff H-1</b>, which scores 81.6% composite on TAKEOFFBENCH-V1 — 2,009 expert-verified line items across 10 residential blueprint sets — against 77.6% for independent human estimators and 34.7–61.4% for frontier models. The benchmark is public so the comparison is reproducible."
+      status: "Published - Main author"
+      description: "Converting a set of architectural blueprints into a complete material quantity takeoff requires visual perception across drawing sheets, dimensional and multi-hop reasoning, and grounding in construction conventions that the drawings never state. We present Handoff-H1, a takeoff system built from three layers: purpose-built computer-vision models that extract primitives; tool-using agents equipped with image operations and in-house visual-task tools, including CV-model-backed counting, detection and plan decomposition; and a persistent, hierarchically structured project foundation, grounded in a curated construction knowledge base. We evaluate on the Construction Blueprint Takeoff Benchmark: 10 real residential blueprint sets paired with consensus-validated expert takeoffs - 2,009 verified line items, restricted for scoring to the 1,348 primary-tier materials that drive an estimate - scored per trade by an LLM judge on material coverage and quantity Precision@25% (P@.25) and combined into a weighted composite. Under identical scoring from the raw PDF, seven frontier and open-weight models span composites of 35-61, and independent professional estimators - scored against the same reconciled gold standard - post 77.6% (65.5% coverage, 87.9% P@.25). Handoff-H1, working end-to-end from the raw PDF, reaches 81.6% (86.1% coverage, 78.8% P@.25): roughly 20 points above the strongest frontier agent, and above the independent estimators by pairing near-human quantity precision with coverage they do not reach. The evaluation harness is public for the open harbor framework; the blueprint sets and ground truth are available upon request for research use."
       links:
-        - text: "H-1 model release"
+        - text: "Paper"
+          URL: "https://arxiv.org/abs/2608.15032"
+          icon: "icon-quote"
+        - text: "Blog post"
+          icon: "icon-profile-fill"
           URL: "https://www.handoff.ai/tech/h1-model-release"
         - text: "YC Launch"
           URL: "https://www.ycombinator.com/launches/RdZ-handoff-h1-a-takeoff-model-that-outperforms-human-estimators"
