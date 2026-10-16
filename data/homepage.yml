@@ -158,6 +158,15 @@ client_and_work:
   enable: true
   works:
 
+    - title: "Apartamento Fácil"
+      description: "Apartamento Fácil aggregates rental listings from multiple real estate websites across São Paulo state. Its AI agent, Greg, helps users find apartments through natural-language queries, compare prices and explore listings on an interactive map."
+      button:
+        btnText: "Visit website"
+        URL: "https://apartamentofacil.com/"
+      image:
+        x: "img/works/apartamento-facil/app.webp"
+      is_even: false
+
     - title: "Bricklaying RL"
       description: "A physics-based bricklaying RL environment inspired by <a href=\"https://monumental.co\" target=\"_blank\" rel=\"noopener\">monumental</a>: a mobile gantry robot places bricks against a blueprint and is scored like a real mason - every brick within BIM ±3mm tolerance, live PyMunk physics, so a bad placement can topple the wall. Watch trained policies build walls, arches and full house facades in an interactive 3D/2D replay viewer."
       button:
